@@ -15,6 +15,7 @@ var TCHI0007 = {
         });
         box.addEventListener("mouseout", function () {
             this.classList.toggle("highlight");
+            this.removeAttribute("style");
         });
     }
 }
