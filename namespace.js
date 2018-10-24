@@ -11,11 +11,11 @@ var TCHI0007 = {
             this.style.backgroundColor = "yellow";
         });
         box.addEventListener("mouseover", function () {
-            this.classList.toggle("highlight");
+            this.target.classList.toggle("highlight");
         });
         box.addEventListener("mouseout", function () {
-            this.classList.toggle("highlight");
-            this.removeAttribute("style");
+            this.target.classList.toggle("highlight");
+            this.target.removeAttribute("style");
         });
     }
 }
