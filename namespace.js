@@ -17,4 +17,4 @@ var TCHI0007 = {
             this.classList.toggle("highlight");
         });
     }
-}
+};
