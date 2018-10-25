@@ -10,11 +10,12 @@ var TCHI0007 = {
             this.style.borderColor = "pink";
             this.style.backgroundColor = "yellow";
         });
-        box.addEventListener("mouseover", function () {
+        box.addEventListener("mouseover", function (this) {
             this.classList.toggle("highlight");
         });
-        box.addEventListener("mouseout", function () {
+        box.addEventListener("mouseout", function (this) {
             this.classList.toggle("highlight");
+            this.removeAttribute('style');
         });
     }
 };
