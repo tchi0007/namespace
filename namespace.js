@@ -18,4 +18,4 @@ var TCHI0007 = {
             this.removeAttribute('style');
         });
     }
-};
+}
